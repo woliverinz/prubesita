@@ -1,0 +1,37 @@
+<html lang="es">
+<head> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1">
+<title>Registro</title>
+</head>
+<body>
+<h2> Formulario de inscripción </h2>
+<form name="inscripcion" action="#" method="GET">
+    Nombre: <input type="text" name="nombre"><br>
+    Código PIN: <input type="password" name="pin"><br><br>
+    Servicios extra:<br>
+    Toalla: <input type="checkbox" name="servicios" value="toalla"><br>
+    Taquilla: <input type="checkbox" name="servicios" value="taquilla"><br>
+    Sauna: <input type="checkbox" name="servicios" value="sauna"><br><br>
+    Tipo de cuota:<br>
+    Mensual: <input type="radio" name="cuota" value="mensual"><br>
+    Trimestral: <input type="radio" name="cuota" value="trimestral"><br>
+    Anual: <input type="radio" name="cuota" value="anual"><br><br>
+    Subir foto o DNI: <input type="file" name="archivo"><br><br>
+    Actividad favorita:
+    <select name="clase">
+        <option value="yoga">Yoga</option>
+        <option value="pilates">Pilates</option>
+        <option value="levantamiento de pesas">Levantamiento de pesas</option>
+        <option value="spinning">Spinning</option>
+		<option value="zumba">Zumba</option>
+    </select><br><br
+    Comentarios:<br>
+    <textarea name="Condiciones médicas" cols="30" rows="5"></textarea><br><br>
+    <input type="submit" name="enviar" value="Enviar alta">
+    <input type="reset" name="borrar" value="Borrar datos">
+
+</form>
+</body>
+</html>
