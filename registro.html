@@ -4,29 +4,31 @@
 <meta name="viewport" content="width=device-width,
 initial-scale=1">
 <title>Registro</title>
+<style>
+        body {
+            background-color: #ffd1dc;
+            color: #4a4a4a;
+            font-family: sans-serif;
+        }
+        ul, ol {
+        text-align: left;
+            }
+    </style>
 </head>
 <body>
 <h2> Formulario de inscripción </h2>
 <form name="inscripcion" action="#" method="GET">
     Nombre: <input type="text" name="nombre"><br>
     Código PIN: <input type="password" name="pin"><br><br>
-
-    <!-- Preferencias -->
     Servicios extra:<br>
     Toalla: <input type="checkbox" name="servicios" value="toalla"><br>
     Taquilla: <input type="checkbox" name="servicios" value="taquilla"><br>
     Sauna: <input type="checkbox" name="servicios" value="sauna"><br><br>
-
-    <!-- Suscripción -->
     Tipo de cuota:<br>
     Mensual: <input type="radio" name="cuota" value="mensual"><br>
     Trimestral: <input type="radio" name="cuota" value="trimestral"><br>
     Anual: <input type="radio" name="cuota" value="anual"><br><br>
-
-    <!-- Documentación -->
     Subir foto o DNI: <input type="file" name="archivo"><br><br>
-
-    <!-- Selección -->
     Actividad favorita:
     <select name="clase">
         <option value="yoga">Yoga</option>
@@ -34,52 +36,9 @@ initial-scale=1">
         <option value="levantamiento de pesas">Levantamiento de pesas</option>
         <option value="spinning">Spinning</option>
 		<option value="zumba">Zumba</option>
-    </select><br><br>
-
-    <!-- Comentarios -->
+    </select><br><br
     Comentarios:<br>
-    <textarea name="comentarios" cols="30" rows="5"></textarea><br><br>
-
-    <!-- Botones -->
-    <input type="submit" name="enviar" value="Enviar alta">
-    <input type="reset" name="borrar" value="Borrar datos">
-
-</form>
-<form name="inscripcion" action="#" method="POST">
-
-    <!-- Identificación -->
-    Nombre: <input type="text" name="nombre"><br>
-    Código PIN: <input type="password" name="pin"><br><br>
-
-    <!-- Preferencias -->
-    Servicios extra:<br>
-    Toalla: <input type="checkbox" name="servicios" value="toalla"><br>
-    Taquilla: <input type="checkbox" name="servicios" value="taquilla"><br>
-    Sauna: <input type="checkbox" name="servicios" value="sauna"><br><br>
-
-    <!-- Suscripción -->
-    Tipo de cuota:<br>
-    Mensual: <input type="radio" name="cuota" value="mensual"><br>
-    Trimestral: <input type="radio" name="cuota" value="trimestral"><br>
-    Anual: <input type="radio" name="cuota" value="anual"><br><br>
-
-    <!-- Documentación -->
-    Subir foto o DNI: <input type="file" name="archivo"><br><br>
-
-    <!-- Selección -->
-    Actividad favorita:
-    <select name="clase">
-        <option value="yoga">Yoga</option>
-        <option value="pilates">Pilates</option>
-        <option value="crossfit">Crossfit</option>
-        <option value="spinning">Spinning</option>
-    </select><br><br>
-
-    <!-- Comentarios -->
-    Comentarios:<br>
-    <textarea name="comentarios" cols="30" rows="5"></textarea><br><br>
-
-    <!-- Botones -->
+    <textarea name="Condiciones médicas" cols="30" rows="5"></textarea><br><br>
     <input type="submit" name="enviar" value="Enviar alta">
     <input type="reset" name="borrar" value="Borrar datos">
 
